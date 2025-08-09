@@ -1,0 +1,18 @@
+{
+  "name": "mint-bot",
+  "version": "2.0.0",
+  "description": "Production-ready NFT mint bot using ethers.js with retry, gas bump, and modular structure.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dryrun": "DRY_RUN=1 node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
